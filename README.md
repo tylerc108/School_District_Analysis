@@ -31,10 +31,19 @@ Below is the row of the new school summary with the data from Thomas High School
 * Replacing the 9th graders scores greatly imporved Thomas High School's performance. After the change was made to drop the 9th graders grades, Thomas High School was the #2 performing school in the district.
 ### How does replacing the ninth-grade scores affect the following:
   * Math and reading scores by grade
+    * hghgh
   * Scores by school spending
+    * hghgh
   * Scores by school size
+    * hghg
   * Scores by school type
+    * Scores by school type
 
-## Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+## Summary: 
 
-* There is a statement summarizing four changes to the school district analysis after reading and math scores have been replaced (5 pt).
+Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+1. This
+2. This
+3. This
+4. This
