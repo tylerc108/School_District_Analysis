@@ -1,6 +1,6 @@
 # School_District_Analysis
 
-## Overview of the school district analysis: Explain the purpose of this analysis.
+## Overview 
 
 In this module, we assisted a data analyst named Maria in conducting analysis on a variety of schools in a school district. We looked at several variables relating to each school, such as the funding each school is provided and the average grades of students in the school. With the analysis that we produced in this module, the school board will be better equiped to make decisions for how to manage these schools. The analysis we provided can help the school boards understand which schools are scoring the lowest on certain subjects and therefore which schools need more assistance to ensure better outcomes for all students. We also looked at how funding can affect the average grades of students at each school, which will help the school boards understand which schools require more funding and whether or not increasing funding can directly improve student outcomes.
 
@@ -29,21 +29,21 @@ Below is the row of the new school summary with the data from Thomas High School
 
 ### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 * Replacing the 9th graders scores greatly imporved Thomas High School's performance. After the change was made to drop the 9th graders grades, Thomas High School was the #2 performing school in the district.
-### How does replacing the ninth-grade scores affect the following:
+### How does replacing the ninth-grade scores affect the following?:
   * Math and reading scores by grade
-    * hghgh
+    * Replacing the ninth grade scores with NaN does not affect scores by grade for 10th, 11th, and 12th grade math and reading scores. However, it does affect 9th grade scores in the "reading_scores_by_grade" and "math_scores_by_grade" data frames, because in the updated data frames the values are replaced with "NaN".
   * Scores by school spending
-    * hghgh
+    * The "spending_summary_df" is affected by dropping the scores because it improves the scores and percentage passing for the $631-$645 range, as this is the bin that Thomas High School is in.
   * Scores by school size
-    * hghg
+    * The "size_summary_df" is affected by dropping the scores because it improves the scores and percentage passing rates for the "Medium" size category, which is the category that Thomas High School falls in.
   * Scores by school type
-    * Scores by school type
+    * The "type_summary_df" is affected by dropping the scores because it improves the scores and percentage passing rates for the "Charter" size category, which is the category that Thomas High School falls in.
 
 ## Summary: 
 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+In summary, dropping the Thomas High School 9th graders' scores improved Thomas High School's status on the school district analysis data frame. This includes the following four changes: 
 
-1. This
-2. This
-3. This
-4. This
+1. Thomas High School's scores by school spending improved.
+2. Thomas High School's scores by school size improved.
+3. Thomas High School's scores by school type improved.
+4. Thomas High School's % Overall Passing improved.
